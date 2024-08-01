@@ -16,7 +16,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-style: normal;
-    /* font-family: Arial, sans-serif; */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -36,20 +36,37 @@ body {
 header {
     color: #000;
     background-color: var(--purple);
-    padding: 20px;
     border-bottom: 2px solid #000;
 }
 
 .header_bar {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
-
-
+h1 {
+    font-family: var(--titles_font);
+    font-size: 1vw;
+    /* font-size: 2em; */
+}
 
 .dark_theme {
-    width: 100px;
-    height: 100px;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    background-color: lightgray;
     border-radius: 50%;
+}
+
+.dark_theme:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+    background-color: lightslategray;
+}
+
+.desc_article {
+    font-family: var(--paragraphs-font);
+    /* font-size: ; */
+    padding: 0 20px;
 }
