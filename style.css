@@ -77,11 +77,26 @@ h1 {
     margin: 20px;
 }
 
+.author > img {
+    max-width: 45px;
+}
+
 .author > p {
     font-size: 14px;
     padding-left: 10px;
 }
 
-/* .main_img {
+.main_img {
+    display: block;
+    margin: auto;
+    max-width: 75vw;
+    border-radius: 5px;
+}
 
-} */
+.desc_main_img {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px;
+}
