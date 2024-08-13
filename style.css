@@ -6,11 +6,6 @@
 :root {
     --titles_font: Caveat, cursive;
     --paragraphs-font: Poppins, sans-serif;
-
-    --light_yellow: #F3FC48; /* lemon */
-    --dark_yellow: #B8860B; /* darkgoldenrod */
-    --purple: #EE82EE; /* violet */
-    --gray: #778899; /* darkslategray */
 }
 
 * {
@@ -28,16 +23,10 @@ html {
 }
 
 body {
-    background-color: var(--light_yellow);
     overflow-x: hidden;
 }
 
 /* cabeçalho */
-
-header {
-    color: #000;
-    background-color: var(--purple);
-}
 
 .header_bar {
     display: flex;
@@ -54,19 +43,19 @@ h1 {
     cursor: pointer;
     width: 55px;
     height: 55px;
-    background-color: #D3D3D3;
+    background-color: #FFF;
     border-radius: 50%;
 }
 
 .dark_theme:hover {
     transform: scale(1.25);
     transition: 0.5s;
-    background-color: var(--gray);
+    background-color: #808080;
 }
 
 .desc_article {
     font-family: var(--paragraphs-font);
-    text-shadow: 1px 1px 0px var(--gray);
+    text-shadow: 0px 0px 2px #808080;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -100,3 +89,6 @@ h1 {
     font-style: italic;
     padding: 10px;
 }
+
+/* conteúdo principal */
+
