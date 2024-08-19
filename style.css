@@ -26,7 +26,7 @@ body {
     overflow-x: hidden;
 }
 
-/* cabeçalho */
+/* cabeçalho (header) */
 
 .header_bar {
     display: flex;
@@ -91,7 +91,7 @@ h1 {
     padding: 10px;
 }
 
-/* conteúdo principal */
+/* conteúdo principal (main) */
 
 .page_navigation {
     display: block;
@@ -99,7 +99,7 @@ h1 {
     border: 2px solid #808080;
     border-radius: 8px;
     margin: auto;
-    margin: 75px auto;
+    margin-top: 75px;
     padding: 20px;
 }
 
@@ -118,6 +118,29 @@ h1 {
 }
 
 .page_navigation > a:hover {
-    display: inline-block;
     text-decoration: underline;
+}
+
+.back_top {
+    color: #FFF;
+    background-color: rgb(182, 3, 107);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+}
+
+article {
+    padding: 75px;
+}
+
+article > h2 {
+    font-size: 2em;
+    font-family: var(--titles_font);
+    font-weight: 700;
+    padding: 20px;
+}
+
+article > p {
+    text-indent: 30px;
 }
