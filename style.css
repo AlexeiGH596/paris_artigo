@@ -68,7 +68,9 @@ h1 {
 }
 
 .author > img {
+    width: 45px;
     max-width: 45px;
+    border-radius: 50%;
 }
 
 .author > p {
@@ -79,7 +81,7 @@ h1 {
 .main_img {
     display: block;
     margin: auto;
-    max-width: 75vw;
+    max-width: 90vw;
     border-radius: 5px;
 }
 
@@ -123,7 +125,7 @@ h1 {
 
 .back_top {
     color: #FFF;
-    background-color: rgb(182, 3, 107);
+    background-color: #EE82EE;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -131,7 +133,7 @@ h1 {
 }
 
 article {
-    padding: 75px;
+    padding: 50px;
 }
 
 article > h2 {
@@ -142,10 +144,31 @@ article > h2 {
 }
 
 article > p {
+    font-family: var(--paragraphs-font);
+    font-weight: 500;
     text-indent: 30px;
 }
 
-article > img {
-    display: block;
-    margin: auto;
+.links_article {
+    color: blue;
 }
+
+.links_article:hover {
+    text-decoration: underline;
+}
+
+article > img {
+    max-width: 75vw;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.paragraph_separation {
+    margin-top: 15px;
+}
+
+
+
+/* rodapé (footer) */
+
