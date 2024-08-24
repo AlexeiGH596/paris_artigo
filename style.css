@@ -11,8 +11,6 @@
 
 * {
     box-sizing: border-box;
-    text-decoration: none;
-    font-style: normal;
     margin: 0;
     padding: 0;
     border: 0;
@@ -81,7 +79,7 @@ h1 {
 .main_img {
     display: block;
     margin: auto;
-    max-width: 90vw;
+    max-width: 90dvw;
     border-radius: 5px;
 }
 
@@ -98,12 +96,12 @@ h1 {
 
 .page_navigation {
     display: block;
-    max-width: 45vw;
-    border: 1px solid #000;
-    border-radius: 8px;
+    max-width: 60dvw;
     margin: auto;
     margin-top: 75px;
     padding: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
     box-shadow: 1.5px 1.5px 3.33px #808080;
 }
 
@@ -115,9 +113,10 @@ h1 {
 
 .page_navigation > a {
     color: #000;
+    display: block;
     font-family: var(--paragraphs-font);
     font-weight: 500;
-    display: block;
+    text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid #AAA;
 }
@@ -150,10 +149,12 @@ article > p {
     font-family: var(--paragraphs-font);
     font-weight: 500;
     text-indent: 30px;
+    line-height: 32px; /* 2em */
 }
 
 .links_article {
     color: blue;
+    text-decoration: none;
 }
 
 .links_article:hover {
@@ -164,12 +165,8 @@ article > p {
     color: purple;
 }
 
-.emphasis {
-    font-style: italic;
-}
-
 article > img {
-    max-width: 75vw;
+    max-width: 75dvw;
     display: block;
     margin: 20px auto;
     border-radius: 5px;
@@ -179,7 +176,32 @@ article > img {
     margin-top: 15px;
 }
 
+aside {
+    display: block;
+    max-width: 60dvw;
+    margin: auto;
+    margin-top: 60px;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    box-shadow: 1.5px 1.5px 3.33px #808080;
+}
 
+aside > h3 {
+    color: #FFF;
+    background-color: #000;
+    font-family: var(--standard);
+    font-weight: 600;
+    text-align: center;
+    margin: -16px -16px 15px -16px;
+    padding: 8px;
+    border-radius: 8px 8px 0 0;
+}
 
-/* rodapé (footer) */
+aside > p {
 
+}
+
+aside > ul {
+    list-style-position: inside;
+}
