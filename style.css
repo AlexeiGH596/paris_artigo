@@ -74,11 +74,6 @@ h1 {
     transition-duration: 0.5s;
 }
 
-.author > img:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-}
-
 .author > p {
     font-family: var(--standard);
     font-size: 14px;
