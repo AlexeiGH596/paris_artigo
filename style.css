@@ -58,13 +58,14 @@ h1 {
     margin-right: 20px;
 }
 
-.author { /* container */
+.author {
+    /* container */
     display: flex;
     align-items: center;
     margin: 20px;
 }
 
-.author > img {
+.author>img {
     width: 45px;
     max-width: 45px;
     border-radius: 50%;
@@ -72,7 +73,7 @@ h1 {
     transition-duration: 0.5s;
 }
 
-.author > p {
+.author>p {
     font-family: var(--standard);
     font-size: 14px;
     padding-left: 10px;
@@ -104,30 +105,30 @@ h1 {
     padding: 20px;
     border: 1px solid #000;
     border-radius: 8px;
-    box-shadow: 1.5px 1.5px 3.33px #808080;
+    box-shadow: 1.5px 1.5px 3.33px #A9A9A9;
 }
 
-.page_navigation > h2 {
+.page_navigation>h2 {
     font-family: var(--standard);
     font-weight: 700;
     text-align: center;
 }
 
 .page_navigation a {
-    color: #000;
+    color: #2F4F4F;
     display: block;
     font-family: var(--paragraphs-font);
     font-weight: 500;
     text-decoration: none;
     padding: 15px;
-    border-bottom: 1px solid #AAA;
+    border-bottom: 1px solid #A9A9A9;
 }
 
 .page_navigation a:hover {
     text-decoration: underline;
 }
 
-.page_navigation > div {
+.page_navigation>div {
     margin-top: 20px;
 }
 
@@ -153,22 +154,23 @@ article {
     padding: 50px;
 }
 
-article > h2 {
+article>h2 {
     font-size: 2em;
     font-family: var(--titles_font);
     font-weight: 700;
     padding: 20px;
 }
 
-article > p {
+article>p {
     font-family: var(--paragraphs-font);
     font-weight: 500;
     text-indent: 30px;
-    line-height: 32px; /* 2em */
+    line-height: 32px;
+    /* 2em */
 }
 
 .links_article {
-    color: blue;
+    color: #00F;
     text-decoration: none;
 }
 
@@ -177,10 +179,10 @@ article > p {
 }
 
 .links_article:visited {
-    color: purple;
+    color: #800080;
 }
 
-article > img {
+article>img {
     max-width: 75dvw;
     display: block;
     margin: 20px auto;
@@ -200,10 +202,10 @@ aside {
     padding: 15px;
     border: 1px solid #000;
     border-radius: 8px;
-    box-shadow: 1.5px 1.5px 3.33px #808080;
+    box-shadow: 1.5px 1.5px 3.33px #A9A9A9;
 }
 
-aside > h3 {
+aside>h3 {
     color: #FFF;
     background-color: #000;
     font-family: var(--standard);
@@ -216,20 +218,20 @@ aside > h3 {
     border-radius: 8px 8px 0 0;
 }
 
-aside > p {
+aside>p {
     font-family: var(--paragraphs-font);
     font-size: 1.1em;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-aside > ul {
+aside>ul {
     columns: 1;
     list-style-position: inside;
     list-style-type: disc;
 }
 
-aside > ul > li {
+aside>ul>li {
     font-family: var(--paragraphs-font);
     font-weight: 400;
     padding: 5px;
