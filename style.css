@@ -40,9 +40,7 @@ h1 {
 
 .dark_theme {
     cursor: pointer;
-    width: 55px;
-    height: 55px;
-    background-color: #AAA;
+    background-color: transparent;
     border-radius: 50%;
     transform: scale(1);
     transition-duration: 0.5s;
@@ -51,7 +49,7 @@ h1 {
 .dark_theme:hover {
     transform: scale(1.2);
     transition-duration: 0.5s;
-    background-color: #808080;
+    background-color: transparent;
 }
 
 .desc_article {
